@@ -1,0 +1,22 @@
+table {
+	
+	border: 2 px black;
+	
+}
+
+td:hover {
+	background-color: #ADD8E6;
+	color: black;
+}
+
+tr, th {
+		background-color: #DA70D6;
+		color: cornsilk;
+		}
+		
+		
+		
+tr, td {
+		background-color: gray;
+		color: white;
+		}
