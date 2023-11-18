@@ -37,7 +37,7 @@ SELECT ALL SQUARES IN THE ARRAY
     border: 1 px solid black;
     border-radius: 25%;
     cursor: pointer;
-    transition: transform .5m ease-in-out;
+    transition: transform .5s ease-in-out;
 }
 /*--------------------------------------------------
 SELECT ALL SQUARES PARAGRAPHS IN THE ARRAY
@@ -88,7 +88,7 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
     animation-name: race;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
-    animation-timing-function: cubic-beizer(2.5,.2,.3.2);
+    animation-timing-function: cubic-beizer(2.5,.2,.3,.2);
 
 } 
 
