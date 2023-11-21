@@ -1,7 +1,7 @@
 body {
     background-color: #fff;
 }
-/* 3rd value in text shadow is gausian blur*  the a ir grba is transparency*/
+
  h1 {
     color: rgba(8,141,165,1);
     margin-left: 100px;
@@ -13,7 +13,7 @@ width: 450px;
 height: 450px;
 background-color: #faedb7; 
 border: 2 px solid black;
-border-radius: 5%;
+border-radius: 5% 5% 5% 5%;
 }
 
 
@@ -37,7 +37,7 @@ SELECT ALL SQUARES IN THE ARRAY
     border: 1 px solid black;
     border-radius: 25%;
     cursor: pointer;
-    transition: transform .5s ease-in-out; 
+    transition: transform .5s ease-in-out;
 }
 /*--------------------------------------------------
 SELECT ALL SQUARES PARAGRAPHS IN THE ARRAY
@@ -76,7 +76,6 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
 }
 
 
-
 /*----------------------------------------------------
     HOVER , TRANSLATE & TRANSFORM EFFECTS
     
@@ -89,7 +88,7 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
     animation-name: race;
     animation-duration: 2.5s;
     animation-iteration-count: infinite;
-    animation-timing-function: cubic-bezier(2.5,.2,.3,2);
+    animation-timing-function: cubic-beizer(2.5,.2,.3,.2);
 
 } 
 
@@ -114,10 +113,10 @@ Animation Effect
 --------------------------------------*/
 @keyframes race {
     0%, 100% {
-        transform: translateY(0px);
+        tranform: translateY(0px);
         background-image: url("../Images/icons/smileyface1.png");
     }
     50% {
-        transform: translateY(300px);
+        transformm: translateY(300px);
     }
 }
