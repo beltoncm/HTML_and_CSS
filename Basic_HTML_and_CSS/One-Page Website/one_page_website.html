@@ -3,69 +3,13 @@
 		<head>
 			<title>The One Page Website</title>
 			<meta charset="utf-8"> 
+			<link rel="stylesheet" href="./css/one_page_website.css">
 		</head>
 <body>
-<!--PROJECT REQUIREMENTS
 
-On this one-page website, you will include (these are the minimum “project requirements”):
-
-
-Home page section (heading tag, <p> tag, etc.).
-
-A section with pictures (<img> tags, etc.).
-
-Contact form (<form> tag, <input> tag, etc.).
-
-A section with a video(s) (<iframe> tag, src attribute, etc.).
-
-Footer (<footer> tag, etc.).
-
-A <nav> element that utilizes HTML bookmarks to allow the user to jump to various sections on the page.
-
-You can add other elements to the page if you wish; it must have these elements, however.
-
-
-Take the following actions to plan out your website:
-
-
-
-
-Decide the topic/subject matter for your website (e.g. animals, automobiles, travel photos, etc.).
-
-
-						NFL FAN PAGE
-
-With the project requirements in mind, create a plan for your page. This plan can be hand-drawn on paper, typed out in a text document, sketched in a program, etc. – it’s your call.
-
-SECTIONS will incude a score box
-HOME - MAIN RECENT NEWS
-
-PICTURES CLIPS OF CATCHES
-
-CONTACT PAGE  will contain info for winning prizes and gifts for a show
-
-
-VIDEO -- FAMOUS PLAYS  TOP DEBATES
-
-
-
-
-
-If you are ahead of schedule feel free to spend a little more time on this assignment. Do not spend so much time on it that you delay your boot camp progress.-->
-
-
-	
-	
-	<!--NAV ELEMENTS W? Bookmarks Page Section Start-->
-	
-	<!--NAV ELEMENTS W/ BOOKMARKS  Page Section END-->
-	<!--<h1>DEDICATED NFL FANS</h1>
-	<p>"Where news, images, and discussions will picque your interest in a topic we all love - Football!"</p>--->
-	
-	<!--Home Page Section Start-->
 	<div id ="home">
 	<div>
-		<div>
+		<div id="intro">
 			<span><h1>DEDICATED NFL FANS</h1></span>
 			<span>"Where news, images, and discussions will picque your interest in a topic we all love - Football!</span>
 		</div>
@@ -112,7 +56,7 @@ If you are ahead of schedule feel free to spend a little more time on this assig
 						<div>
 							<img src = "./images/thumb/thumbnail_2.png" alt="Image 2 Link is Broken or Missing">
 							<div>
-								<h3>Click to Enlarge</h3>
+								<!--<h3>Click to Enlarge</h3>-->
 								<p>Lawrence Taylor  LT!!</p>
 							</div>
 						</div>
@@ -123,7 +67,7 @@ If you are ahead of schedule feel free to spend a little more time on this assig
 						<div>
 							<img src = "./images/thumb/thumbnail_3.png" alt="Image 3 Link is Broken or Missing">
 							<div>
-								<h3>Click to Enlarge</h3>
+								<!--<h3>Click to Enlarge</h3-->>
 								<p>Jerry Rice-a-Roni.  The San Francisco treat.</p>
 							</div>
 						</div>
@@ -138,11 +82,11 @@ If you are ahead of schedule feel free to spend a little more time on this assig
 
 	<!--Pictures Page Section END-->
 <!--Video Page Section Start-->
-	
+<div class="videos-container">
 	<p id="videos">Famous Classic NY Giants (When they were actually good)</p>
-	<iframe width="420" height="345" src="https://www.youtube.com/embed/EOUGunxiq3k?si=pCmOWpJBc3eALeIQ">
+	<iframe src="https://www.youtube.com/embed/EOUGunxiq3k?si=pCmOWpJBc3eALeIQ" width="420"; height="345";>
 	</iframe>
-	
+</div>
 	
 	
 <!--Video Page Section END-->
@@ -164,20 +108,67 @@ If you are ahead of schedule feel free to spend a little more time on this assig
 				</p>
 
 						<div>
-								<form action="" method="post">
-									<input class="contactInfo" type ="text"value="First Name">
-									<input class="contactInfo" type ="text"value="Last Name">
-									<input class="contactInfo" type ="text"value="Street Address">
-									<input class="contactInfo" type ="text"value="P.O. BOX--Apt. #">
-									<input class="contactInfo" type ="text"value="Town/City">
-									<input class="contactInfo" type ="text"value="State">
-									<input class="contactInfo" type ="text"value="Zip Code">
-									<input class="contactInfo" type ="text"value="Number of Tickets Requested">
-									<input class="contactInfo" type ="text"value="Email Address">
-									<input class="contactInfo" type ="text"value="Phone Number">
-									<div class="form-spacer">
-										<label class="terms">Terms and Conditions</label>
+								<form class= "lottery-submission" action="" method="post">
+									
+									<div class="raffle-input-form">
+										<label for="firstname">First name</label>
+										<input class="contactInfo" type ="text"value="First Name">
 									</div>
+
+
+									<div class="raffle-input-form">
+										<label for="lastname">Last Name</label>
+										<input class="contactInfo" type ="text"value="Last Name">
+									</div>
+									
+									<div class="raffle-input-form">
+										<label for="streetaddress">Street Address</label>
+										<input class="contactInfo" type ="text" value="Street Address">
+									</div>
+
+
+									<div class="raffle-input-form">
+										<label for="addl address"></label>Additional Address</label>
+										<input class="contactInfo" type ="text"value="P.O. BOX--Apt. #">
+									</div>
+
+									<div class="raffle-input-form">
+										<label for="town">Town</label>
+										<input class="contactInfo" type ="text"value= "Town/City">
+									</div>
+
+
+
+									<div class="raffle-input-form">
+										<label for="town">State</label>
+										<input class="contactInfo" type ="text"value= "State">
+									</div>
+
+									<div class="raffle-input-form">
+										<label for="ZIP">ZIP Code</label>
+										<input class="contactInfo" type ="text" value="Zip Code">
+									</div>	
+									
+									<div class="raffle-input-form">
+										<label for="attempts"># of Tickets Attempted</label>
+										<input class="contactInfo" type ="text" value="Number of Tickets Requested">
+									</div>
+									
+									<div class="raffle-input-form">
+											<label for="email">Email Address</label>
+											<input class="contactInfo" type ="text" value="Email Address">
+									</div>	
+								
+									
+									<div class="raffle-input-form">
+										<label for="phonenumber">Phone Number</label>
+										<input class="contactInfo" type ="text" value="Phone Number">
+									</div>
+									
+								
+								<div class="form-spacer">
+										<label class="terms" id="terms_conditions">Terms and Conditions</label>
+								</div>
 									<br>
 									<br>
 									<div>
@@ -198,7 +189,7 @@ If you are ahead of schedule feel free to spend a little more time on this assig
 <footer>
 <br>
 	<div>
-		www.The NFL Advocate &nbsp;|&nbsp; &copy; 2023
+		www.The NFL Advocate.com &nbsp;|&nbsp; &copy; 2023
 	</div>
 </footer>
 	<!--End Footer-->

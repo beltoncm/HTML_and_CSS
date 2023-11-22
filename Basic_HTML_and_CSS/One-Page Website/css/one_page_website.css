@@ -1,0 +1,59 @@
+
+html {
+    
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #D3D3D3;
+   
+}
+
+
+
+#intro {
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+.navigate {
+    font-size: 36px;
+}
+
+img , .lottery-submission, .videos-container,p {
+    width:fit-content;
+    /*border-color:darkorange;*/
+    border: darkorange dashed;
+    padding-top: 5px;
+    padding-bottom: 5 px;
+    padding-left: 2px;
+    padding-right: 2px;    
+    border-radius: 15px;
+    margin-left: 25%
+}
+
+.contactInfo
+{
+    display:inline-block;
+    padding: 8px;   
+    border-radius: 8px;
+     
+}
+
+
+
+.raffle-input-form {
+
+   padding: 10px; 
+   
+}
+
+
+.form-spacer {
+    padding: 10px
+}
+
+.contactInfo input {
+    padding: 15px;
+}
+
+
+
