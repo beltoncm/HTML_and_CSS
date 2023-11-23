@@ -20,10 +20,10 @@
                   <a class="nav-link text-light" href="#info">About</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link text-light" href="#">Showtimes</a>
+                  <a class="nav-link text-light" href="#Showtimes">Showtimes</a>
                 </li>
                 <li class="nav-item active">
-                  <a class="nav-link text-light" href="#" tabindex="-1" aria-disabled="true">Deals</a>
+                  <a class="nav-link text-light" href="#Deals">Deals</a>
                 </li>
               </ul>
               <form class="form-inline my-2 my-lg-0">
@@ -38,7 +38,36 @@
               <h1 class="display-4 text-light">Academy Cinemas</h1>
               <p class="lead text-light">Sit back, relax, and enjoy the show...</p>
             </div>
-        </div>
+        
+            <div class="card-group">
+              <div class="card">
+                <img src="./img/marvelposter_collage.jpg" class="card-img-top float-left" width="318" height="259" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Marvel Lovers</h5>
+                  <p class="card-text">Academy Cinemas always has the Latest Marvel Content and Classics</p>
+                  <p class="card-text"><small class="text-muted">In 3-D where available</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./img/movieclassics_collage.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Classics</h5>
+                  <p class="card-text">Old-time Classics are availble year round and rotate among many popular genres</p>
+                  <p class="card-text"><small class="text-muted">Group Discounts Available</small></p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./img/disparateparts_collage.jpg" class="card-img-top float-right" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Variety of Titles</h5>
+                  <p class="card-text">We have a genre available for every movie lover</p>
+                  <p class="card-text"><small class="text-muted">Seasonal pricing available on Seasonal Classics to help you enjoy your holidays.</small></p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
 
         <div class="container">
             <div class="row">
@@ -60,13 +89,13 @@
                             <h3>Now Playing:</h3>
                             <ul class="list-group">
                                 <li class="list-group-item">
-                                    <a class="nav-link" href="#">Kong Skull Island</a>
+                                    <a class="nav-link" href="#KongSkullIslandSynopsis">Kong Skull Island</a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a class="nav-link" href="#">Ghost in the Shell</a>
+                                    <a class="nav-link" href="#GhostintheShellSynopsis">Ghost in the Shell</a>
                                 </li>
                                 <li class="list-group-item">
-                                    <a class="nav-link" href="#">Beauty and the Beast</a>
+                                    <a class="nav-link" href="#BeautyandtheBeastSynopsis">Beauty and the Beast</a>
                                 </li>
                             </ul>
                 
@@ -78,123 +107,104 @@
 <h3 class="my-5 font-weight-bold text-center">Showtimes</h3>
 <div class="card-deck" id="Showtimes">
     <div class="card">
-        <img src="img/beautyandthebeast.jpg" class="card-img-top" alt="">
+        <img src="img/kongskullisland.jpg" class="card-img-top" id="KongSkullIslandSynopsis" alt="">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-      <nav>
-        <span class="badge badge-pill badge-primary py-3">9:30 AM</span>
-        <span class="badge badge-pill badge-primary py-3">12:30 PM</span>
-      </nav>  
+        <h5 class="card-title">Kong Skull Island</h5>
+        <p class="card-text">Scientists, soldiers and adventurers unite to explore a mythical, uncharted island in the Pacific Ocean. 
+          Cut off from everything they know, they venture into the domain of the mighty Kong, igniting the ultimate battle between man and nature.</p>
+        <p class="card-text"><small class="text-muted">PG-13 Sci-Fi Violence, Some Strong Language</small></p>
+        <nav class="py-2">
+              <span class="badge badge-pill badge-primary py-2">9:30 AM</span>
+              <span class="badge badge-pill badge-primary py-2">12:30 PM</span>
+              <span class="badge badge-pill badge-primary py-2">5:10 PM</span>
+              <span class="badge badge-pill badge-primary py-2">7:30 PM</span>
+        </nav>
+    </div>
+    </div>
+    
+    <div class="card">
+      <img src="img/ghostintheshell.jpg" class="card-img-top" id="GhostintheShellSynopsis" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Ghost in the Shell</h5>
+        <p class="card-text">In the near future, humans are augmented with cybernetic improvements to traits such as vision, strength and intelligence. Augmentation developer Hanka Robotics establishes a secret project to develop an artificial body, or "shell", that can integrate a human brain rather than an AI. The sole survivor of a terrorist attack which killed her parents, 
+          Mira Killian is chosen as the test subject after her body is damaged beyond repair. </p>
+        <p class="card-text"><small class="text-muted">PG-13 Intense seqeuences of Sci-Fi Violence</small></p>
+      <nav class="py-2">
+        <span class="badge badge-pill badge-primary py-2">10:30 AM</span>
+        <span class="badge badge-pill badge-primary py-2">1:30PM</span>  
+        <span class="badge badge-pill badge-primary py-2">4:00PM</span>  
+      </nav>
     </div>
     </div>
     <div class="card">
-      <img src="img/ghostintheshell.jpg" class="card-img-top" alt="">
+      <img src="img/beautyandthebeast.jpg" class="card-img-top" id="BeautyandtheBeastSynopsis" alt="">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    <nav>
-        <span class="badge badge-pill badge-primary py-3">10:30 AM</span>
-        <span class="badge badge-pill badge-primary py-3">1:30PM</span>  
-    </nav>
-    </div>
-    </div>
-    <div class="card">
-      <img src="img/kongskullisland.jpg" class="card-img-top" alt="">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">Beauty and the Beast</h5>
+        <p class="card-text">A young Prince, imprisoned in the form of a Beast (Dan Stevens), can be freed only by true love. 
+          What may be his only opportunity arrives when he meets Belle (Emma Watson), the only human girl to ever visit the castle since it was enchanted.</p>
+        <p class="card-text"><small class="text-muted">PG some scenes of violence and frightening images</small></p>
+        <nav>
+          <span class="badge badge-pill badge-primary py-2">10:30 AM</span>
+          <span class="badge badge-pill badge-primary py-2">1:30PM</span>  
+        </nav>
       </div>
     </div>
   </div>
 
 
-<!--Showtimes-->
-
-
-        <!--Showtimes
-
-            USE FOR SHOWTIMES
-      card decks 
-https://getbootstrap.com/docs/4.3/components/card/#card-columns
-
-
-<div class="card-deck">
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-  <div class="card">
-    <img src="..." class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-    </div>
-  </div>
-</div>
-
-/Showtimes
-
-
-
-badges
-https://getbootstrap.com/docs/4.3/components/badge/
-
-<span class="badge badge-pill badge-primary">Primary</span>  will set blue
-
-<span class="badge badge-pill badge-secondary">Secondary</span>
-Pill badges
-Use the .badge-pill modifier class to make badges more rounded (with a larger border-radius and additional horizontal padding). Useful if you miss the badges from v3.
-
-Primary Secondary Success Danger 
-
-https://getbootstrap.com/docs/4.3/utilities/borders/#border-radius
-
-rounded-sm
-rounded-lg
-
-for padding
-
-https://getbootstrap.com/docs/4.3/utilities/spacing/
-
-try py-3
-
--->
-
-        <div class="text-center">
+        <div class="text-center" id="movieRewards">
             <form>
-                <h1 class="text-primary my-5">Sign up for Movie Club Rewards!</h1>
+                <h1 class="text-primary my-5" >Sign up for Movie Club Rewards!</h1>
                 <div class="form-group">
                       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary mb-15">Submit</button>
             </form>
         </div>
+
+       
+
+
+      <h3 class="text-primary font-weight-bold text-center mt-5">Deals</h3>
+        <div class="card-deck" >
+        
+        <div class="card pt-25" id="Deals">
+          <!--<img src="img/beautyandthebeast.jpg" class="card-img-top" id="BeautyandtheBeastSynopsis" alt="">-->
+          <div class="card-body">
+            <h5 class="card-title">Kids can watch for free on Sundays during the NCAA Football season</h5>
+            <p class="card-text">Free Admission</p>
+            <p class="card-text"><small class="text-muted">Sorry, refreshements and snacks are not included in this offer. The theater reserves the right to refuse admittance if crowds exceeed fire-safety standards</small></p>
+         </div>
+        <div class="card-body">
+          <h5 class="card-title">The Bo Nix Special</h5>
+          <p class="card-text">Anyone wearing Oregon Ducks apparrel on a Saturday after a win will be given a handshake, popcorn, and a free-ticket for a Sunday matinee</p>
+          <p class="card-text"><small class="text-muted">Limited VIP seating is also available for Alumni and current students. Please ask Theater Management for more details.</small></p>
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">The Deal Breaker</h5>
+          <p class="card-text">Anyone wearing Oregon State Beavers apparrel on a Saturday, at or near the vicinity of the theater, will be asked to leave the area immediately</p>
+          <p class="card-text"><small class="text-muted">The theater assumes no liability for verbal or physical harrassment of Oregon State Beaver fans</small></p>
+        </div>
+        
+        </div>
+      </div>
+
+
+
+
+
+
+
+        
 
         <div class="container my-5">
             <ul class="nav nav-inline">
                 
                 <li class="nav-item">
-                    <small><a class="nav-link active" href="#">Movie Rewards</a></small>
+                    <small><a class="nav-link active" href="#movieRewards">Movie Rewards</a></small>
                 </li>
                 <li class="nav-item">
-                    <small><a class="nav-link" href="#">Movies@news.org</a></small>
+                    <small><a class="nav-link active" href="#">Movies@news.org</a></small>
                 </li>
                 <li class="nav-item text">
                     <small><a class="nav-link" href="#">Info@academycinemas.com</a></small>
@@ -206,7 +216,7 @@ try py-3
             
             </ul>
 
-    </div>
+      </div>
 
 
 
